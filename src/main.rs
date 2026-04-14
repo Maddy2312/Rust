@@ -1,13 +1,5 @@
 fn main() {
-    // Ownership
-    // One value = one owner
-    // Only one owner at a time
-    // Owner out of scope = memory freed
-
-    // let x:String = String::from("Hello");
-    // process_integer(x);
-    // println!("The value of x in main() is {}", x);
-
+    println!("Hello");
 }
 
 // fn process_integer(item:String){
@@ -18,7 +10,7 @@ fn _add(item1:u8, item2:u8)->u8{
     return item1*item2;
 }
 
-fn _variable_and_function(){ 
+fn _variable_and_function(){
     // Scalar Types
 
     //     Integer
@@ -61,4 +53,31 @@ fn _variable_and_function(){
                 // let num2: u8 = 12;
                 // let result: u8 = add(num1, num2);
                 // println!("The sum of num1 and num2 is {}", result);
+}
+
+fn _ownership_and_borrowing(){
+    // Ownership
+    // One value = one owner
+    // Only one owner at a time
+    // Owner out of scope = memory freed
+
+    // let x:String = String::from("Hello");
+    // process_integer(x);
+    // println!("The value of x in main() is {}", x);
+
+    // Borrowing
+    // let mut word:String = String::from("Hello");
+    // let w1 = &mut word;
+    // w1.push_str(" string");
+    // println!("w1 is {}", w1);
+    
+    // let w2 = &mut word;
+    // w2.push_str(" string");
+    // println!("w1 is {}", w2);
+
+    // let r1 = &word;
+    // let r2 = &word;
+    // println!("r1 is {} and r2 is {}", r1, r2);
+
+
 }
