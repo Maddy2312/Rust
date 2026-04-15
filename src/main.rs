@@ -1,14 +1,33 @@
+// use std::any::type_name;
+// use std::io::{self, Write};
+
+// fn print_type_of<T>(_: &T) {
+//     println!("{}", type_name::<T>());
+// }
+
+
 fn main() {
-    println!("Hello");
+
+    // let x = 10;
+    // print_type_of(&x);
+
+
+    // let mut input = String::new();
+    // print!("Enter a number: ");
+    // io::stdout().flush().unwrap();
+    // io::stdin().read_line(&mut input).expect("fail to readline");
+    // println!("You entered: {}", input);
+
+
 }
 
 // fn process_integer(item:String){
 //     println!("The value of x in process_integer() is {}", item);
 // }
 
-fn _add(item1:u8, item2:u8)->u8{
-    return item1*item2;
-}
+// fn _add(item1:u8, item2:u8)->u8{
+//     return item1*item2;
+// }
 
 fn _variable_and_function(){
     // Scalar Types
@@ -62,10 +81,10 @@ fn _ownership_and_borrowing(){
     // Owner out of scope = memory freed
 
     // let x:String = String::from("Hello");
-    // process_integer(x);
+    // // process_integer(x);
     // println!("The value of x in main() is {}", x);
 
-    // Borrowing
+    // // Borrowing
     // let mut word:String = String::from("Hello");
     // let w1 = &mut word;
     // w1.push_str(" string");
